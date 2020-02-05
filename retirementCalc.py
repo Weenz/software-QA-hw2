@@ -5,7 +5,7 @@ def retirementCalc():
     #Loop to verify int for age
     while True:
         try:
-            age = int(input("Wheat is your age? "))
+            age = int(input("What is your age? "))
         except ValueError:
             print("Incorrect value, must be a number.")
             continue

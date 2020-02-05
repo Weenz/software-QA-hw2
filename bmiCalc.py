@@ -48,10 +48,10 @@ def bmiCalc():
     if (bmi <= 18.5):
         value = "Underweight"
 
-    elif ( (bmi > 18.5) and (bmi < 24.9) ):
+    elif ( (bmi > 18.5) and (bmi <= 24.9) ):
         value = "Normal Weight"
     
-    elif( (bmi > 25) and (bmi < 29.9) ):
+    elif( (bmi > 25) and (bmi <= 29.9) ):
         value = "Overweight"
     
     else:
