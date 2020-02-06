@@ -6,6 +6,7 @@ This assignment includes 4 files.
 1. Main.py is the main driver that runs the two calculator functions.
 2. bmiCalc.py holds the bmi calculator.
 3. retirementCalc.py holds the retirement age calculator.
-4. main.exe runs the app without the need of downloading python or any other software. 
 
-Download and run main.exe to see the app work.
+Download all three files.  Python must be installed to run main.py.  
+
+Main.py can be executed in the command line by navigating to the folder it is in and typing "py main.py".
