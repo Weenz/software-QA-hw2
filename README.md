@@ -1,7 +1,7 @@
 # software-QA-hw2
 Homework #2 for Software Quality Assurance
 
-This assignment includes 4 files.
+This assignment includes 3 files.
 
 1. Main.py is the main driver that runs the two calculator functions.
 2. bmiCalc.py holds the bmi calculator.
