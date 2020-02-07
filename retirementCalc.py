@@ -2,6 +2,10 @@ import math
 
 def retirementCalc():
 
+    print ("")
+    print ("Retirement Calculator")
+    print ("--------------------------")
+
     #Loop to verify int for age
     while True:
         try:
