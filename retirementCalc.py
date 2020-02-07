@@ -42,6 +42,11 @@ def retirementCalc():
         else:
             break
 
+    if ((aSalary == 0) or (percentSaved == 0)):
+        goalAge = 0
+        return goalAge
+    
+
     yearsReq = int(userGoal / (aSalary * ((percentSaved/100) * 1.35)))
 
     goalAge = int(math.ceil(age + yearsReq))

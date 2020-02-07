@@ -57,6 +57,9 @@ while (option != 3):
             print ("You died at 100 before reaching your goal.")
             print ("You would have hit your goal at age", age)
         
+        elif (age == 0):
+            print ("Error: Annual salary or the percentage saved cannot be zero")
+        
         else:
             print ("")
             print ("You will reach your goal at age", age)
@@ -67,3 +70,4 @@ while (option != 3):
 
 print ("")
 print ("Have a nice day!")
+input ("Press Enter to close the application...")
