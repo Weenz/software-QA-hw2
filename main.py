@@ -53,7 +53,7 @@ while (option != 3):
     #Option 2: Retirement Calculator
     elif (option == 2):
         age = retirementCalc()
-        if (age > 100):
+        if (age >= 100):
             print ("You died at 100 before reaching your goal.")
             print ("You would have hit your goal at age", age)
         
